@@ -1,22 +1,76 @@
 aid: humans
 name: Humans
-description: Humans is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  humans& is a human-centric frontier AI lab founded in 2025 and publicly
+  announced on January 20, 2026, building large-scale AI models centered on
+  people and their relationships rather than raw autonomy. Its research spans
+  long-horizon and multi-agent reinforcement learning, memory, and user
+  understanding, tightly integrating science and product so that AI acts as
+  connective tissue that strengthens organizations and communities. The
+  founding team comes from frontier industry and academic labs including xAI,
+  Anthropic, Google DeepMind, OpenAI, Meta, Reflection, AI2, Stanford, and MIT.
+  Its seed round is led by SV Angel and co-founder Georges Harik, with investors
+  including NVIDIA, GV (Google Ventures), Emerson Collective, Forerunner, S32,
+  DCVC, and Jeff Bezos. As a pre-product research lab it publishes no public API
+  yet; this profile captures its verified public identity surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/humans/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: identity-enriched; no public API surface
+x-website: https://humansand.ai/
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI
+- Machine Learning
+- Frontier AI
+- AI Lab
+- Reinforcement Learning
+- Multi-Agent Systems
+- Foundation Models
+- Research
+image: https://humansand.ai/favicon-192.png
 apis: []
+common:
+- type: Website
+  name: humans& Website
+  url: https://humansand.ai/
+- type: Blog
+  name: humans& Blog
+  url: https://humansand.ai/blog/
+- type: GitHubOrganization
+  name: humans& on GitHub
+  url: https://github.com/humansand
+- type: X
+  name: humans& on X
+  url: https://x.com/humansand
+- type: Careers
+  name: humans& Careers
+  url: https://jobs.ashbyhq.com/humans-and
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
