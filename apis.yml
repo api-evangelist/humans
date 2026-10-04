@@ -52,7 +52,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Frontier AI
 - AI Lab
 - Reinforcement Learning
@@ -70,6 +70,7 @@ tags_raw:
 - Multi-Agent Systems
 - Foundation Models
 - Research
+- Machine-Learning
 image: https://humansand.ai/favicon-192.png
 apis: []
 common:
